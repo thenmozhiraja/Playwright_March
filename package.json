@@ -1,0 +1,22 @@
+{
+  "name": "cucumber-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber.js",
+    "test:smoke": "cucumber.js --tags @smoke"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "multiple-cucumber-html-reporter": "^3.10.0",
+    "playwright": "^1.58.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "xlsx": "^0.18.5"
+  }
+}
