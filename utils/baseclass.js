@@ -6,6 +6,7 @@ class BaseReuse{
 
     static async clickElement(page, locator){
         await page.click(locator);
+        //changes
 
     }
 
